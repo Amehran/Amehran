@@ -1,0 +1,42 @@
+# _config.yml
+title: Armin Mehran
+name: Armin Mehran
+description: "Senior Mobile AI Engineer | Agentic AI & On-Device Inference Specialist"
+url: "https://arminmehran.com" # The final custom domain
+baseurl: "" # Keep this empty since you are using a custom domain
+
+# Theme Settings
+minimal_mistakes_skin: "dark"
+locale: "en-US"
+
+# Sidebar Profile
+author:
+  name: "Armin Mehran"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Principal Engineer bridging the gap between mobile architecture and modern AI."
+  location: "Toronto, Canada"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/YOUR_LINKEDIN_ID"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/amehran" # Updated to your actual handle/repo context
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:a.mehran@gmail.com"
+
+navigation:
+  main:
+    - title: "Home"
+      url: /
+    - title: "Mobile & Edge AI"
+      url: /mobile-ai/
+    - title: "Agentic Backends"
+      url: /agentic-ai/
+    - title: "The Workshop"
+      url: /woodworking/
+
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
