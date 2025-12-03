@@ -1,13 +1,18 @@
-# _config.yml
+# Site Settings
 title: Armin Mehran
 name: Armin Mehran
 description: "Senior Mobile AI Engineer | Agentic AI & On-Device Inference Specialist"
-url: "https://arminmehran.com" # The final custom domain
-baseurl: "" # Keep this empty since you are using a custom domain
+url: "https://arminmehran.com"
+baseurl: ""
 
 # Theme Settings
+theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "dark"
 locale: "en-US"
+
+# Plugins
+plugins:
+  - jekyll-include-cache
 
 # Sidebar Profile
 author:
@@ -21,15 +26,7 @@ author:
       url: "https://www.linkedin.com/in/YOUR_LINKEDIN_ID"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/amehran" # Updated to your actual handle/repo context
+      url: "https://github.com/amehran"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:a.mehran@gmail.com"
-
-
-
-# remote_theme: "mmistakes/minimal-mistakes"
-theme: "minimal-mistakes-jekyll"
-plugins:
-  - jekyll-include-cache
-  # - jekyll-remote-theme

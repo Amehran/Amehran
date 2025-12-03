@@ -4,7 +4,7 @@ permalink: /agentic-ai/
 layout: single
 author_profile: true
 header:
-  overlay_color: "#333"
+  overlay_image: /assets/images/portfolio_banner.png
   overlay_filter: 0.5
 ---
 

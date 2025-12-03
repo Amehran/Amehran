@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 header:
-  overlay_color: "#1E1E24"
+  overlay_image: /assets/images/portfolio_banner.png
   overlay_filter: 0.5
   caption: "Senior Mobile AI Engineer"
 excerpt: "Agentic AI & On-Device Inference Specialist"
