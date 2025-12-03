@@ -26,16 +26,7 @@ author:
       icon: "fas fa-envelope"
       url: "mailto:a.mehran@gmail.com"
 
-navigation:
-  main:
-    - title: "Home"
-      url: /
-    - title: "Mobile & Edge AI"
-      url: /mobile-ai/
-    - title: "Agentic Backends"
-      url: /agentic-ai/
-    - title: "The Workshop"
-      url: /woodworking/
+
 
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
