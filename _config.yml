@@ -6,13 +6,15 @@ url: "https://arminmehran.com"
 baseurl: ""
 
 # Theme Settings
-theme: "minimal-mistakes-jekyll"
+# theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 locale: "en-US"
 
 # Plugins
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Sidebar Profile
 author:
