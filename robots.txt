@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arminmehran.com/sitemap.xml
