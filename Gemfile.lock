@@ -115,6 +115,7 @@ DEPENDENCIES
   jekyll
   jekyll-include-cache
   jekyll-remote-theme
+  jekyll-sitemap
   minimal-mistakes-jekyll
   webrick
 
