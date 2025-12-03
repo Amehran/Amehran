@@ -28,6 +28,8 @@ author:
 
 
 
-remote_theme: "mmistakes/minimal-mistakes"
+# remote_theme: "mmistakes/minimal-mistakes"
+theme: "minimal-mistakes-jekyll"
 plugins:
   - jekyll-include-cache
+  # - jekyll-remote-theme
