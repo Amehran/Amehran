@@ -18,10 +18,16 @@ I develop assistive technology for the visually impaired, leveraging the power o
 *   **Performance Optimization:** Focusing on model quantization and efficient inference to ensure low latency and battery efficiency on mobile devices.
 *   **Accessibility:** Translating visual data into auditory or haptic feedback to assist users in navigation.
 
-### Tech Stack
+---
 
-*   **Frameworks:** TensorFlow Lite, MediaPipe
-*   **Android:** CameraX, Neural Networks API (NNAPI)
-*   **Techniques:** Int8 Quantization, Edge Inference
+## 🛠 Technical Stack
 
-[View All Projects on GitHub](https://github.com/amehran){: .btn .btn--primary}
+**On-Device ML**
+*   **Inference:** TensorFlow Lite, MediaPipe.
+*   **Optimization:** Int8 Quantization, Edge Inference.
+
+**Android Vision**
+*   **Camera:** CameraX.
+*   **Acceleration:** Neural Networks API (NNAPI).
+
+[View All Projects on GitHub](https://github.com/amehran){: .btn .btn--github}

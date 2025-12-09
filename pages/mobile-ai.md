@@ -24,7 +24,7 @@ The native mobile interface for the AI Dev Companion system, demonstrating best-
 *   **Features:** Real-time streaming responses, syntax highlighting, and secure authentication.
 *   **Architecture:** Clean Architecture (MVVM/MVI) ensuring scalability and testability.
 
-[View on GitHub](https://github.com/amehran/AIDevCompanionDev){: .btn .btn--primary}
+[View on GitHub](https://github.com/amehran/AIDevCompanionDev){: .btn .btn--github}
 
 ### Project: Gemini Chat App
 
@@ -33,7 +33,7 @@ A cross-platform conversational interface leveraging Google's Gemini models.
 *   **Tech Stack:** **React Native**.
 *   **Focus:** Delivering a consistent chat experience across platforms.
 
-[View on GitHub](https://github.com/amehran/GeminiChatApp-React-Native){: .btn .btn--primary}
+[View on GitHub](https://github.com/amehran/GeminiChatApp-React-Native){: .btn .btn--github}
 
 ---
 
