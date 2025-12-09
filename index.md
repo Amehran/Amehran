@@ -21,11 +21,11 @@ feature_row:
     btn_label: "View Mobile Stack"
     btn_class: "btn--inverse"
     
-  - icon: "fas fa-hammer" # Hammer icon for woodworking
-    title: "🪑 The Workshop"
-    excerpt: "When I'm not optimizing inference, I'm building custom furniture. Precision in code, precision in wood."
-    url: "/woodworking/"
-    btn_label: "View Gallery"
+  - icon: "fas fa-eye"
+    title: "👁️ Computer Vision"
+    excerpt: "Developing assistive technology for the visually impaired using TensorFlow Lite and CameraX."
+    url: "/computer-vision/"
+    btn_label: "View Projects"
     btn_class: "btn--inverse"
 ---
 

@@ -5,5 +5,5 @@ main:
     url: /mobile-ai/
   - title: "Agentic Backends"
     url: /agentic-ai/
-  - title: "The Workshop"
-    url: /woodworking/
+  - title: "Computer Vision"
+    url: "/computer-vision/"
