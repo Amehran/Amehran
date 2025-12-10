@@ -10,6 +10,7 @@
 @import "custom/variables";
 @import "custom/hero";
 @import "custom/buttons";
+@import "custom/carousel";
 
 /* ==========================================================================
    Global Theme Overrides (Typography & Layout)
@@ -48,13 +49,27 @@ a {
     }
 }
 
-/* Feature Row Titles (Clickable) */
-.archive__item-title a {
-    color: $color-heading !important;
-    text-decoration: none !important;
+/* Feature Row Titles (Clickable - Homepage Only) */
+.homepage .archive__item-title a {
+    color: $color-accent !important;
+    /* Make explicitly Blue */
+    text-decoration: none;
+    font-weight: 700;
 
     &:hover {
-        color: $color-accent !important;
+        color: darken($color-accent, 15%) !important;
+        text-decoration: underline;
+    }
+}
+
+/* Revert standard titles to default */
+.archive__item-title a {
+    text-decoration: none;
+    font-weight: 700;
+
+    &:hover {
+        color: darken($color-accent, 10%);
+        text-decoration: underline;
     }
 }
 

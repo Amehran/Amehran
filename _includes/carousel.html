@@ -1,0 +1,66 @@
+<div class="carousel-container" id="projectCarousel">
+    <div class="carousel-track" id="track">
+        {% for image in page.gallery %}
+        <div class="carousel-item">
+            <img src="{{ image.url }}" alt="{{ image.alt }}">
+            <div class="carousel-caption">
+                <h3>{{ image.title }}</h3>
+                <p>{{ image.alt }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+
+
+    <div class="carousel-indicators">
+        {% for image in page.gallery %}
+        <div class="indicator {% if forloop.first %}active{% endif %}" onclick="scrollToIndex({{ forloop.index0 }})">
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    const track = document.getElementById('track');
+    const indicators = document.querySelectorAll('.indicator');
+    let currentIndex = 0;
+    const totalItems = {{ page.gallery | size }};
+
+    function updateIndicators(index) {
+        indicators.forEach((dot, i) => {
+            if (i === index) dot.classList.add('active');
+            else dot.classList.remove('active');
+        });
+    }
+
+    function scrollCarousel(direction) {
+        const itemWidth = track.offsetWidth;
+        let newIndex = currentIndex + direction;
+
+        if (newIndex < 0) newIndex = totalItems - 1;
+        if (newIndex >= totalItems) newIndex = 0;
+
+        scrollToIndex(newIndex);
+    }
+
+    function scrollToIndex(index) {
+        const itemWidth = track.offsetWidth;
+        track.scrollTo({
+            left: itemWidth * index,
+            behavior: 'smooth'
+        });
+        currentIndex = index;
+        updateIndicators(index);
+    }
+
+    // Update index on manual scroll
+    track.addEventListener('scroll', () => {
+        const itemWidth = track.offsetWidth;
+        const index = Math.round(track.scrollLeft / itemWidth);
+        if (index !== currentIndex) {
+            currentIndex = index;
+            updateIndicators(index);
+        }
+    });
+</script>

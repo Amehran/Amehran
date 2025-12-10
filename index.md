@@ -1,5 +1,6 @@
 ---
 layout: splash
+classes: homepage
 permalink: /
 header:
   overlay_image: /assets/images/portfolio_banner.png
@@ -21,6 +22,7 @@ feature_row:
     title: "👁️ Computer Vision"
     excerpt: "Developing assistive technology for the visually impaired using TensorFlow Lite and CameraX."
     url: "/computer-vision/"
+
 ---
 
 {% include feature_row %}

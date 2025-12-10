@@ -19,7 +19,13 @@
             </div>
             {% elsif f.icon %}
             <div class="archive__item-teaser" style="text-align: center; padding: 20px 0;">
+                {% if f.url %}
+                <a href="{{ f.url | relative_url }}" style="text-decoration: none;">
+                    <i class="{{ f.icon }}" style="font-size: 3em; color: #3b82f6;"></i>
+                </a>
+                {% else %}
                 <i class="{{ f.icon }}" style="font-size: 3em; color: #3b82f6;"></i>
+                {% endif %}
             </div>
             {% endif %}
 
@@ -40,7 +46,10 @@
                 </div>
                 {% endif %}
 
-                {% comment %} Button removed {% endcomment %}
+                {% if f.btn_label %}
+                <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class | default: 'btn--primary' }}">{{
+                        f.btn_label }}</a></p>
+                {% endif %}
             </div>
         </div>
     </div>

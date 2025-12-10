@@ -1,0 +1,141 @@
+/* ==========================================================================
+   Carousel Component
+   ========================================================================== */
+
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    margin: 2em 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    background: #000;
+    /* Dark background for premium feel */
+}
+
+.carousel-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;
+        /* Chrome/Safari */
+    }
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    position: relative;
+    height: 500px;
+    /* Fixed height for consistency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a1a;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        display: block;
+        box-shadow: none;
+        /* Override theme defaults */
+        border-radius: 0;
+        margin: 0;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    color: #fff;
+    padding: 3em 1.5em 1.5em;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    h3 {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #fff !important;
+    }
+
+    p {
+        margin: 0.5em 0 0;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.carousel-item:hover .carousel-caption {
+    opacity: 1;
+}
+
+/* Navigation Buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 10;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: translateY(-50%) scale(1.1);
+    }
+
+    &.prev {
+        left: 20px;
+    }
+
+    &.next {
+        right: 20px;
+    }
+}
+
+/* Indicators */
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &.active {
+        background: #fff;
+        transform: scale(1.2);
+    }
+}
