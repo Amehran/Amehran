@@ -33,3 +33,6 @@ author:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:a.mehran@gmail.com"
+    - label: "Resume"
+      icon: "fas fa-file-pdf"
+      url: "/assets/documents/Armin_Mehran_Resume.pdf"
