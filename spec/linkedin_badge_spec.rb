@@ -18,4 +18,13 @@ describe 'LinkedIn Badge Integration' do
     expect(footer_content).to include('Read on Medium')
     expect(footer_content).to include('href="https://medium.com/@a.mehran/my-journey-from-silicon-constraints-to-intelligent-agents-3e2e3094ac88"')
   end
+
+  it 'includes Google Scholar link in author sidebar' do
+    config_content = YAML.load_file(config_path)
+    scholar_link = config_content['author']['links'].find { |link| link['label'] == 'Google Scholar' }
+    
+    expect(scholar_link).not_to be_nil
+    expect(scholar_link['url']).to eq('https://scholar.google.ca/citations?user=FhaZXmwAAAAJ&hl=en')
+    expect(scholar_link['icon']).to eq('fas fa-graduation-cap')
+  end
 end
