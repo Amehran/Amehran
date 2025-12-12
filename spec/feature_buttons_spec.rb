@@ -32,4 +32,25 @@ describe 'Feature Row Buttons' do
     # Ensure no accidentally remaining inline styles or overrides that force grey
     expect(feature_row_file).not_to include('style="background-color:')
   end
+
+  describe 'Homepage Feature Boxes' do
+    let(:index_content) { File.read('_site/index.html') }
+
+    it 'includes all four feature boxes' do
+      expect(index_content).to include('Agentic Orchestration')
+      expect(index_content).to include('Edge GenAI')
+      expect(index_content).to include('Android SDKs')
+      expect(index_content).to include('Computer Vision')
+    end
+
+    it 'links to the Android SDKs page' do
+      expect(index_content).to include('/android-sdks/')
+    end
+
+    it 'highlights key Android SDK features' do
+      expect(index_content).to include('Clean Architecture')
+      expect(index_content).to include('90%+ test coverage')
+    end
+  end
 end
+

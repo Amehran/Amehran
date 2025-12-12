@@ -18,6 +18,11 @@ feature_row:
     excerpt: "Optimizing **Gemini Nano** and **MediaPipe** to run LLMs purely on-device (Android), ensuring 100% privacy and offline capability."
     url: "/mobile-ai/"
     
+  - icon: "fas fa-cube" # SDK/Library icon
+    title: "📦 Android SDKs"
+    excerpt: "Production-ready libraries with **Clean Architecture**, **90%+ test coverage**, and modern Android best practices."
+    url: "/android-sdks/"
+    
   - icon: "fas fa-eye"
     title: "👁️ Computer Vision"
     excerpt: "Developing assistive technology for the visually impaired using TensorFlow Lite and CameraX."

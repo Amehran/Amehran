@@ -66,4 +66,19 @@ describe 'Site Health & Content Structure' do
       expect(index_content).to include('/hobbies/')
     end
   end
+
+  describe 'Mobile AI Page' do
+    let(:page_path) { File.join(site_dir, 'mobile-ai', 'index.html') }
+    let(:page_content) { File.read(page_path) }
+
+    it 'exists' do
+      expect(File.exist?(page_path)).to be true
+    end
+
+    it 'includes cross-reference to Android SDKs page' do
+      expect(page_content).to include('/android-sdks/')
+      expect(page_content).to include('BarcodeScannerSDK')
+      expect(page_content).to include('90%+ test coverage')
+    end
+  end
 end
