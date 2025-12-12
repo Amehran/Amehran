@@ -1,2 +1,12 @@
 _site/
 .jekyll-cache/
+.ruby-lsp/
+
+# Temporary files
+*.log
+build.log
+jekyll.log
+.implementation-summary.md
+fix-ssl.sh
+serve.rb
+Gemfile.lock

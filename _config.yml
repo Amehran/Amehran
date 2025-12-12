@@ -6,8 +6,8 @@ url: "https://arminmehran.com"
 baseurl: ""
 
 # Theme Settings
-# theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes@4.27.0"
+theme: "minimal-mistakes-jekyll"
+# remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 minimal_mistakes_skin: "default"
 locale: "en-US"
 
