@@ -1,41 +1,51 @@
-Hi there, I'm Armin 👋
+# Armin Mehran - Portfolio Website
 
 Senior Mobile AI Engineer | Agentic AI & On-Device Inference Specialist
 
-I am a Toronto-based Principal Engineer with 10+ years of experience bridging the gap between mobile architecture and modern AI. I specialize in building privacy-first systems where Cloud Agents (Python/CrewAI) communicate securely with Edge Execution (Android/Gemini Nano).
+## 🚀 Quick Start (Local Development)
 
-🚀 What I'm Working On
+### Prerequisites
+- Ruby 3.1+
+- Bundler
 
-🤖 Agentic Orchestration: Building serverless multi-agent backends using FastAPI and CrewAI that can reason, plan, and execute complex tasks.
+### Run Locally
 
-📱 Edge GenAI: Optimizing Gemini Nano and MediaPipe to run Large Language Models purely on-device (Android), ensuring 100% privacy and offline capability.
+```bash
+# Install dependencies
+bundle install
 
-👁️ Computer Vision: Developing assistive technology for the visually impaired using TensorFlow Lite and CameraX.
+# Serve locally
+bundle exec jekyll serve
 
-🛠️ Tech Stack
+# View at http://localhost:4000
+```
 
-Domain
+## 📁 Site Structure
 
-Technologies
+This is a simple 5-page Jekyll portfolio:
 
-Mobile AI
+- **Home** (`index.md`) - Landing page with feature highlights
+- **Mobile AI** (`pages/mobile-ai.md`) - Mobile & Edge AI projects
+- **Agentic AI** (`pages/agentic-ai.md`) - Multi-agent systems
+- **Android SDKs** (`pages/android-sdks.md`) - Production SDKs
+- **Computer Vision** (`pages/computer-vision.md`) - Assistive technology
+- **Hobbies** (`pages/woodworking.md`) - Woodworking projects
 
-Gemini Nano TensorFlow Lite MediaPipe ML Kit
+## 🔄 CI/CD
 
-Agentic Backend
+GitHub Actions automatically builds and deploys to GitHub Pages on push to `main`.
 
-CrewAI LangGraph Pydantic Docker
+See `.github/workflows/jekyll.yml` for the deployment pipeline.
 
-Architecture
+## 🛠️ Tech Stack
 
-MVVM/MVI Clean Architecture Microservices Serverless (AWS Lambda)
+- **Framework**: Jekyll 4.x
+- **Theme**: Minimal Mistakes (remote theme)
+- **Hosting**: GitHub Pages
+- **CI/CD**: GitHub Actions
 
-📈 GitHub Stats
+## 📫 Connect
 
-📫 Connect with Me
-
-💼 LinkedIn
-
-🌐 Portfolio: arminmehran.com
-
-📧 a.mehran@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/arminmehran)
+- 🌐 [arminmehran.com](https://arminmehran.com)
+- 📧 a.mehran@gmail.com

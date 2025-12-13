@@ -1,11 +1,11 @@
 ---
 title: "Android SDKs & Libraries"
 permalink: /android-sdks/
-layout: single
+layout: simple
 author_profile: true
 header:
-  overlay_image: /assets/images/portfolio_banner.png
   overlay_filter: 0.5
+  overlay_image: /assets/images/gradient-banner.png
 toc: true
 toc_label: "SDK Portfolio"
 ---

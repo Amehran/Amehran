@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/css/simple.css' | relative_url }}?v=profile_links">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- 1. LEFT ALIGNED NAVIGATION -->
+    <header>
+        <nav class="nav-container">
+            {% for item in site.data.navigation.main %}
+            <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url %}active{% endif %}">
+                {{ item.title }}
+            </a>
+            {% endfor %}
+        </nav>
+    </header>
+
+    <!-- 2. OPTIONAL HERO BANNER (Only if defined in page) -->
+    {% if page.header.overlay_image %}
+    <div class="hero">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h1>{{ page.title | default: site.title }}</h1>
+            <p>{{ page.excerpt }}</p>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- 3. MAIN CONTENT -->
+    <main>
+        {% unless page.header.overlay_image %}
+        <h1>{{ page.title }}</h1>
+        {% endunless %}
+
+        {{ content }}
+    </main>
+
+    <!-- 4. FOOTER -->
+    <footer>
+        <div style="margin-bottom: 20px;">
+            <a href="https://github.com/amehran" class="footer-link"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/arminmehran" class="footer-link"><i class="fab fa-linkedin"></i>
+                LinkedIn</a>
+        </div>
+        <p>&copy; 2025 Armin Mehran. Built with Simple Jekyll.</p>
+    </footer>
+
+</body>
+
+</html>

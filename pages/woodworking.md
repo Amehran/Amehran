@@ -1,12 +1,12 @@
 ---
 title: "The Engineering of Wood"
 permalink: /woodworking/
-layout: single
+layout: simple
 author_profile: true
 header:
-  overlay_image: /assets/images/portfolio_banner.png # Placeholder, user should update with a wood texture or workshop photo
   overlay_filter: 0.5
-excerpt: "Debugging in the physical world: Precision, constraints, and irreversible execution."
+  overlay_image: /assets/images/gradient-banner.png
+excerpt: "A parallel discipline that sharpens the way I build software."
 toc: true
 toc_label: "Build Process"
 toc_icon: "tools"
@@ -29,9 +29,19 @@ gallery:
     title: "The Swimmer"
 ---
 
-Ideally, software engineering is the art of defining constraints and executing logic within them. Woodworking is **exactly** the same—except `Ctrl+Z` doesn't exist, and a merge conflict means you've ruined a $200 piece of Walnut.
+When I'm not architecting mobile and AI systems, you'll usually find me in the workshop—because for me, woodworking is the purest form of engineering.
 
-I approach woodworking not just as a hobby, but as a practice ground for **critical thinking**. It forces a level of foresight and disciplined planning that directly translates back to system architecture.
+In software, we define constraints, design structures, and solve problems with precision. In woodworking, the same principles apply—but with higher stakes. There's no Ctrl+Z, no rollback, no safe sandbox. A wrong cut is a production bug, and a merge conflict means you've just turned a $200 piece of walnut into expensive scrap.
+
+That pressure forces a different level of critical thinking, anticipation, and disciplined execution—the exact soft skills that drive my career as a mobile engineer and AI developer.
+
+Woodworking has become my off-screen training ground. It sharpens my ability to:
+- **Plan architectures** before touching a tool or writing a line of code
+- **Analyze constraints** and adapt to them in real time
+- **Debug failures** in an environment where nature doesn't compromise
+- **Build with intention**, creativity, and long-term thinking
+
+For me, it's more than a hobby—it's a complementary engineering discipline. It keeps my mind sharp, keeps me solving problems in new ways, and keeps me connected to why I love building systems in the first place.
 
 ## 📐 The "Architecture" Phase (Planning & CAD)
 Just as I wouldn't write a line of code without a sequence diagram, I don't make a single cut without a blueprint.
@@ -51,5 +61,5 @@ Mistakes happen. A chisel slips; a measurement is off.
 
 ## 🛠️ Gallery of Builds
 
-{% include carousel.html %}
+{% include gallery caption="Recent woodworking projects" %}
 
