@@ -1,0 +1,14 @@
+<div class="grid-3-col">
+    {% assign features = page.feature_row %}
+    {% for f in features %}
+    <div class="feature-card">
+        <a href="{{ f.url | relative_url }}" class="card-link">
+            <div class="card-icon-wrapper">
+                <i class="{{ f.icon }}"></i>
+            </div>
+            <h3>{{ f.title }}</h3>
+            <p>{{ f.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        </a>
+    </div>
+    {% endfor %}
+</div>

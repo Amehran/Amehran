@@ -1,0 +1,10 @@
+{% assign gallery = include.gallery | default: page.gallery %}
+{% if include.caption %}<p style="text-align: center; color: var(--color-text-muted); font-style: italic;">{{
+    include.caption }}</p>{% endif %}
+<div class="gallery">
+    {% for img in gallery %}
+    <a href="{{ img.url | relative_url }}">
+        <img src="{{ img.image_path | relative_url }}" alt="{{ img.alt | default: img.title }}">
+    </a>
+    {% endfor %}
+</div>

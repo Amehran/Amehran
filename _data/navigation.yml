@@ -1,11 +1,13 @@
 main:
   - title: "Home"
     url: /
-  - title: "Mobile & Edge AI"
+  - title: "Mobile AI"
     url: /mobile-ai/
-  - title: "Agentic Backends"
+  - title: "Agentic AI"
     url: /agentic-ai/
+  - title: "Android SDKs"
+    url: /android-sdks/
   - title: "Computer Vision"
-    url: "/computer-vision/"
+    url: /computer-vision/
   - title: "Hobbies"
-    url: "/hobbies/"
+    url: /woodworking/

@@ -1,11 +1,11 @@
 ---
 title: "Agentic Systems"
 permalink: /agentic-ai/
-layout: single
+layout: simple
 author_profile: true
 header:
-  overlay_image: /assets/images/portfolio_banner.png
   overlay_filter: 0.5
+  overlay_image: /assets/images/gradient-banner.png
 ---
 
 ## 🤖 Autonomous Multi-Agent Architectures

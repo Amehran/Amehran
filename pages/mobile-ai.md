@@ -1,18 +1,18 @@
 ---
 title: "Mobile & Edge AI"
 permalink: /mobile-ai/
-layout: single
+layout: simple
 author_profile: true
 header:
-  overlay_image: /assets/images/portfolio_banner.png
   overlay_filter: 0.5
+  overlay_image: /assets/images/gradient-banner.png
 toc: true
 toc_label: "Engineering Capabilities"
 ---
 
 I bridge the gap between **Enterprise Mobile Architecture** and **Modern On-Device AI**. With over 10 years of experience, I build systems that are not only intelligent but also secure, scalable, and offline-capable.
 
-> **💡 SDK Development**: For a deep dive into my production-ready SDK work, see my [Android SDKs & Libraries](/android-sdks/) page, featuring the **BarcodeScannerSDK** with 90%+ test coverage, Clean Architecture, and comprehensive CI/CD.
+> **SDK Development**: For a deep dive into my production-ready SDK work, see my [Android SDKs & Libraries](/android-sdks/) page, featuring the **BarcodeScannerSDK** with 90%+ test coverage, Clean Architecture, and comprehensive CI/CD.
 
 ## 📱 Mobile Architecture & Intelligence
 
