@@ -6,3 +6,4 @@ gem "minimal-mistakes-jekyll"  # For local development
 gem "jekyll-remote-theme"      # For GitHub Pages CI/CD
 gem "jekyll-sitemap"
 gem "webrick"
+gem "public_suffix", "< 7.0"
