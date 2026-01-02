@@ -11,6 +11,7 @@ theme: "minimal-mistakes-jekyll"  # For local development
 minimal_mistakes_skin: "default"
 locale: "en-US"
 
+
 # Plugins
 plugins:
   # - jekyll-include-cache
