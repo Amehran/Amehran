@@ -45,6 +45,8 @@ body {
     line-height: 1.6;
     background-color: var(--color-background);
     -webkit-font-smoothing: antialiased;
+    font-size: 1.15rem;
+    /* Increased base font size for desktop */
 }
 
 a {
@@ -83,12 +85,46 @@ header {
 
 .nav-link {
     color: var(--color-primary);
-    /* Darker for visibility */
     font-weight: 600;
-    /* Bolder */
     margin-right: 28px;
-    font-size: 1.05rem;
-    /* Larger */
+    font-size: 1.15rem;
+    /* Increased from 1.05rem */
+}
+
+/* ... existing code ... */
+
+.profile-content h2 {
+    margin-top: 0;
+    font-size: 2.2rem;
+    /* Increased from 2rem */
+    color: var(--color-primary);
+}
+
+.profile-content p {
+    font-size: 1.2rem;
+    /* Increased from 1.1rem */
+    color: var(--color-text);
+    line-height: 1.7;
+}
+
+/* ... existing code ... */
+
+h1 {
+    font-size: 2.5rem;
+    /* Increased from 2.25rem */
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 0.5em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    /* Increased from 1.75rem */
+}
+
+h3 {
+    font-size: 1.5rem;
+    /* Increased from 1.25rem */
 }
 
 .nav-link:hover,
@@ -475,6 +511,14 @@ img {
         text-align: center;
         gap: 20px;
         padding-bottom: 30px;
+    }
+
+    .profile-content p {
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+        padding: 0 10px;
+        /* Added slight side padding */
     }
 
     .profile-avatar {
