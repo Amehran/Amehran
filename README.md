@@ -1,14 +1,58 @@
-# Armin Mehran - Portfolio Website
+# Hi, I'm Armin Mehran 👋
 
-Senior Mobile AI Engineer | Agentic AI & On-Device Inference Specialist
+**Principal Machine Learning Engineer (PhD) | Agentic AI, LangGraph & Edge Deployment**
 
-## 🚀 Quick Start (Local Development)
+📍 Toronto, ON, Canada  
+📧 [a.mehran@gmail.com](mailto:a.mehran@gmail.com) | 🌐 [arminmehran.com](https://arminmehran.com) | 💼 [LinkedIn](https://linkedin.com/in/arminmehran)
 
-### Prerequisites
-- Ruby 3.1+
-- Bundler
+---
 
-### Run Locally
+## 👨‍💻 Professional Summary
+
+I am a **Principal Machine Learning Engineer** with **10+ years of experience** architecting scalable AI systems. I specialize in solving the "last mile" problem in AI deployment—bridging the gap between **Agentic Workflows** (LangGraph, CrewAI) and **Privacy-First On-Device Inference** (Gemini Nano).
+
+My expertise lies in building privacy-first systems where **Cloud Agents** communicate securely with **Edge Execution**, reducing cloud costs and latency while maintaining enterprise-grade security standards (FinTech/Banking).
+
+---
+
+## 🛠️ Technical Skills
+
+| Domain | Stack |
+|--------|-------|
+| **AI Backend & Agents** | Python, FastAPI, CrewAI, LangGraph, LangChain, OpenAI API, Prompt Engineering |
+| **On-Device AI & ML** | Google Gemini Nano, MediaPipe, TensorFlow Lite, ML Kit, CameraX, Quantization |
+| **Core Engineering** | Kotlin (Android), Clean Architecture, System Design, Docker |
+| **Cloud & DevOps** | AWS, GCP, GitHub Actions (CI/CD), WebSockets/SSE |
+
+---
+
+## 🔭 Featured Projects
+
+### 🤖 [Autonomous Multi-Agent Orchestration](https://arminmehran.com/agentic-ai/)
+An advanced serverless Python backend engineered using **LangGraph** to coordinate multiple specialized agents. Unlike standard chatbots, this system maintains long-term context, manages state, and executes multi-step reasoning tasks autonomously.
+
+### 📱 [EdgeGen - Privacy-First Hybrid Inference](https://arminmehran.com/edge-vision/)
+A hybrid AI architecture designed to prioritize user privacy. The system processes sensitive queries strictly on-device using **Google Gemini Nano** and **MediaPipe**, intelligently routing only complex, non-sensitive tasks to the cloud.
+
+---
+
+## 🎓 Education & Certifications
+
+- **PhD in Computer Engineering**
+- **The Complete Agentic AI Engineering Course** (2025)
+- **Meta Mobile Developer Professional Certificate** (2025)
+- **Google Cybersecurity Professional Certificate** (2024)
+- **AWS Certified Cloud Practitioner**
+
+---
+
+<details>
+<summary>📂 About This Repository (Portfolio Source Code)</summary>
+
+## Portfolio Website Source
+This repository contains the source code for my portfolio website, built with **Jekyll**.
+
+### Quick Start (Local Development)
 
 ```bash
 # Install dependencies
@@ -16,36 +60,10 @@ bundle install
 
 # Serve locally
 bundle exec jekyll serve
-
-# View at http://localhost:4000
 ```
 
-## 📁 Site Structure
-
-This is a simple 5-page Jekyll portfolio:
-
-- **Home** (`index.md`) - Landing page with feature highlights
-- **Mobile AI** (`pages/mobile-ai.md`) - Mobile & Edge AI projects
-- **Agentic AI** (`pages/agentic-ai.md`) - Multi-agent systems
-- **Android SDKs** (`pages/android-sdks.md`) - Production SDKs
-- **Computer Vision** (`pages/computer-vision.md`) - Assistive technology
-- **Hobbies** (`pages/woodworking.md`) - Woodworking projects
-
-## 🔄 CI/CD
-
-GitHub Actions automatically builds and deploys to GitHub Pages on push to `main`.
-
-See `.github/workflows/jekyll.yml` for the deployment pipeline.
-
-## 🛠️ Tech Stack
-
+### Tech Stack
 - **Framework**: Jekyll 4.x
-- **Theme**: Minimal Mistakes (remote theme)
 - **Hosting**: GitHub Pages
 - **CI/CD**: GitHub Actions
-
-## 📫 Connect
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/arminmehran)
-- 🌐 [arminmehran.com](https://arminmehran.com)
-- 📧 a.mehran@gmail.com
+</details>
