@@ -27,9 +27,26 @@
     <!-- 2. OPTIONAL HERO BANNER (Only if defined in page) -->
     {% if page.header.overlay_image %}
     <div class="hero">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h1>{{ page.title | default: site.title }}</h1>
-            <p>{{ page.excerpt }}</p>
+        <div class="hero-content-wrapper">
+
+            <div class="hero-text">
+                <h1>{{ page.title | default: site.title }}</h1>
+                <p class="hero-subtitle">
+                    {{ page.excerpt }}
+                </p>
+                {% if page.header.actions %}
+                <div class="hero-buttons">
+                    {% for action in page.header.actions %}
+                    <a href="{{ action.url | relative_url }}" class="btn">{{ action.label }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="hero-image-container">
+                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Armin Mehran" class="profile-pic">
+            </div>
+
         </div>
     </div>
     {% endif %}
@@ -44,8 +61,13 @@
     </main>
 
     <!-- 4. FOOTER -->
-    <!-- 4. FOOTER -->
     <footer>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/arminmehran" target="_blank"><i class="fab fa-linkedin"></i>
+                LinkedIn</a>
+            <a href="https://github.com/amehran" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:a.mehran@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        </div>
         <p>&copy; {{ site.time | date: '%Y' }} Armin Mehran.</p>
     </footer>
 

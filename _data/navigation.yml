@@ -1,13 +1,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "Mobile"
-    url: /mobile-ai/
-  - title: "Agents"
+  - title: "Agentic AI"
     url: /agentic-ai/
-  - title: "SDKs"
-    url: /android-sdks/
-  - title: "Vision"
-    url: /computer-vision/
-  - title: "Hobbies"
-    url: /woodworking/
+  - title: "Edge & Vision"
+    url: /edge-vision/
+  - title: "Resume"
+    url: /assets/documents/Armin_Mehran_Resume.pdf
+  - title: "Contact"
+    url: "mailto:a.mehran@gmail.com"
