@@ -1,6 +1,10 @@
 /* =========================================
    DESIGN SYSTEM & THEME TOKENS
    ========================================= */
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     /* -- Palette -- */
     --color-primary: #0f172a;

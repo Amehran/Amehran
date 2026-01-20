@@ -7,7 +7,7 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description"
         content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <link rel="stylesheet" href="{{ '/assets/css/simple.css' | relative_url }}?v=profile_links">
+    <link rel="stylesheet" href="{{ '/assets/css/simple.css' | relative_url }}?v=hero_side_by_side">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
@@ -61,10 +61,12 @@
     </main>
 
     <!-- 4. FOOTER -->
-    <footer>
+    <footer id="contact">
         <div class="footer-links">
             <a href="https://www.linkedin.com/in/arminmehran" target="_blank"><i class="fab fa-linkedin"></i>
                 LinkedIn</a>
+            <a href="https://scholar.google.ca/citations?user=FhaZXmwAAAAJ&hl=en" target="_blank"><i
+                    class="fas fa-graduation-cap"></i> Google Scholar</a>
             <a href="https://github.com/amehran" target="_blank"><i class="fab fa-github"></i> GitHub</a>
             <a href="mailto:a.mehran@gmail.com"><i class="fas fa-envelope"></i> Email</a>
         </div>

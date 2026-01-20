@@ -8,4 +8,4 @@ main:
   - title: "Resume"
     url: /assets/documents/Armin_Mehran_Resume.pdf
   - title: "Contact"
-    url: "mailto:a.mehran@gmail.com"
+    url: "#contact"
