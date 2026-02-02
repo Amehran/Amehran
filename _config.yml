@@ -6,16 +6,17 @@ url: "https://arminmehran.com"
 baseurl: ""
 
 # Theme Settings
-theme: "minimal-mistakes-jekyll"  # For local development
-# remote_theme: "mmistakes/minimal-mistakes@4.27.0"  # Uncomment for GitHub Pages
+# Theme Settings
+# theme: "minimal-mistakes-jekyll"  # For local development
+remote_theme: "mmistakes/minimal-mistakes@4.27.0"  # Uncomment for GitHub Pages
 minimal_mistakes_skin: "default"
 locale: "en-US"
 
 
 # Plugins
 plugins:
-  # - jekyll-include-cache
-  # - jekyll-remote-theme  # Uncomment for GitHub Pages
+  - jekyll-include-cache
+  - jekyll-remote-theme  # Uncomment for GitHub Pages
   - jekyll-sitemap
 
 # Sidebar Profile
