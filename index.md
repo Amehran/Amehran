@@ -10,7 +10,7 @@ header:
       url: "#featured-projects"
     - label: "Download Resume"
       url: "/assets/documents/Armin_Mehran_Resume.pdf"
-excerpt: "Principal Machine Learning Engineer (PhD) specializing in Autonomous Agents (LangGraph) and Privacy-First On-Device Inference (Gemini Nano). Bridging the gap between research and production."
+excerpt: "Senior Mobile Application Developer & Machine Learning Engineer (PhD) specializing in Android Framework (Kotlin, Jetpack Compose), Autonomous Agents (LangGraph), and Privacy-First On-Device Inference. Bridging the gap between research and production."
 feature_row:
   - icon: "fas fa-project-diagram"
     title: "Autonomous Multi-Agent Orchestration"
@@ -27,10 +27,10 @@ feature_row:
 
 <h2>From Mobile Architecture to Intelligent Agents</h2>
 <p>
-  With over 10 years of experience in software architecture and a PhD in Computer Engineering, I specialize in building scalable, production-grade AI systems.
+  With 10+ years of experience in Android Development and software architecture and a PhD in Computer Engineering, I specialize in building scalable, production-grade applications and AI systems.
 </p>
 <p>
-  While my roots are in enterprise mobile development (building apps for millions of users in FinTech), my focus has evolved to Agentic AI. I don't just train models; I build the complex engineering infrastructure required to deploy them—orchestrating multi-agent workflows in the cloud and optimizing inference on the edge.
+  My foundation is in enterprise mobile development, leveraging Clean Architecture (MVVM/MVI) and Jetpack Compose to build robust applications for millions of users. Building upon this expertise, my focus has evolved to encompass Agentic AI and Edge ML. I don't just train models; I build the complex engineering infrastructure required to deploy them—orchestrating multi-agent workflows in the cloud and optimizing inference directly on the edge.
 </p>
 <p>
   I am currently focused on solving the "last mile" problem in AI: making autonomous agents fast, reliable, and privacy-compliant on consumer devices.
@@ -46,8 +46,8 @@ feature_row:
   <h3 style="text-align: center; margin-bottom: 30px;">Core Tech Stack</h3>
   <ul style="list-style: none; padding: 0; font-size: 1.1em;">
     <li style="margin-bottom: 15px;"><strong>Agentic AI:</strong> LangGraph, CrewAI, OpenAI API, RAG Pipelines</li>
-    <li style="margin-bottom: 15px;"><strong>Edge ML:</strong> Google Gemini Nano, TensorFlow Lite, MediaPipe, Quantization</li>
-    <li style="margin-bottom: 15px;"><strong>Engineering:</strong> Python (FastAPI), Kotlin (Android), System Design, CI/CD (GitHub Actions)</li>
+    <li style="margin-bottom: 15px;"><strong>Edge ML & Mobile Architecture:</strong> Android Framework (Kotlin, Jetpack Compose, Coroutines), Clean Architecture (MVVM/MVI), Google Gemini Nano, TensorFlow Lite</li>
+    <li style="margin-bottom: 15px;"><strong>Backend & Engineering:</strong> Python (FastAPI), System Design, CI/CD (GitHub Actions)</li>
   </ul>
 </div>
 

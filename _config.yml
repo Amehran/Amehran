@@ -1,7 +1,7 @@
 # Site Settings
 title: ""
 name: Armin Mehran
-description: "Principal Machine Learning Engineer | Agentic AI, On-Device Inference & Mobile Architecture"
+description: "Senior Mobile Application Developer & Machine Learning Engineer | Android, Agentic AI, On-Device Inference"
 url: "https://arminmehran.com"
 baseurl: ""
 
@@ -23,7 +23,7 @@ plugins:
 author:
   name: "Armin Mehran"
   avatar: "/assets/images/profile.jpg"
-  bio: "Principal Engineer bridging the gap between mobile architecture and modern AI."
+  bio: "Senior Mobile Application Developer & Machine Learning Engineer bridging the gap between scalable mobile architecture and modern AI ecosystems."
   location: "Toronto, Canada"
   links:
     - label: "LinkedIn"
